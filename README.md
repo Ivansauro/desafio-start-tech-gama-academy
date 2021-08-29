@@ -2,7 +2,7 @@
 
 Criação de um banco de currículos para a empresa fictícia Jobsnet em Node e React. O desenvolvimento seguiu os seguintes parâmetros:
 
-##### Fase 1 - Criação da Página
+#### Fase 1 - Criação da Página
 
 1. Apresentar a estrutura do projeto no github;
 2. Landing page com formulário para preenchimento de candidatura. (Referencia formulário - [link](https://drive.google.com/file/d/1S3Y6otnW2tQLsX1aSgXL5bZuzPbt4rWS/view?usp=sharing))
