@@ -1,0 +1,111 @@
+{
+  "openapi": "3.0.0",
+
+  "info": {
+    "title": "API do site Jobsnet",
+    "description": "API do site fictício Jobsnet, criado para o Desafio Gama do programa Start Tech",
+    "version": "1.0.0"
+  },
+
+  "servers": [
+    {
+      "url": "http://localhost:5000",
+      "description": "Ambiente de desenvolvimento"
+    }
+  ],
+
+  "paths": {
+    "/register": {
+      "post": {
+        "summary": "Cadastro de candidato",
+        "description": "Cadastro de candidato, recebe: nome, cargo pretendido, nascimento, estado civil, gênero, endereço, bairro, cidade, cep, telefone 1, telefone 2, celular, telefone para contato, email, identidade, cpf, veículo e habilitação.",
+        "tags": ["candidato"],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "properties": {
+                  "nome": {
+                    "type": "string"
+                  },
+                  "cargo": {
+                    "type": "string"
+                  },
+                  "nascimento": {
+                    "civil": "string"
+                  },
+                  "genero": {
+                    "type": "string"
+                  },
+                  "endereco": {
+                    "type": "string"
+                  },
+                  "bairro": {
+                    "type": "string"
+                  },
+                  "cidade": {
+                    "type": "string"
+                  },
+                  "cep": {
+                    "type": "string"
+                  },
+                  "tel1": {
+                    "type": "string"
+                  },
+                  "tel2": {
+                    "type": "string"
+                  },
+                  "cel": {
+                    "type": "string"
+                  },
+                  "contato": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  },
+                  "identidade": {
+                    "type": "string"
+                  },
+                  "cpf": {
+                    "type": "string"
+                  },
+                  "veiculo": {
+                    "type": "string"
+                  },
+                  "cnh": {
+                    "type": "string"
+                  }
+                }
+              },
+              "examples": {
+                "Candidato Teste": {
+                  "value": {
+                    "nome": "Teste",
+                    "cargo": "desenvolvedor",
+                    "nascimento": "01/01/1970",
+                    "civil": "solteiro",
+                    "genero": "Não-binário",
+                    "endereco": "Rua Street",
+                    "bairro": "Bairro District",
+                    "cidade": "Cidade City",
+                    "cep": "00000000",
+                    "tel1": "00000-0000",
+                    "tel2": "11111-1111",
+                    "cel": "22222-2222",
+                    "contato": "33333-3333",
+                    "email": "teste@teste.com",
+                    "identidade": "1234567891",
+                    "cpf": "123456789",
+                    "veiculo": "sim",
+                    "cnh": "a"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

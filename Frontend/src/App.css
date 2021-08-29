@@ -1,0 +1,174 @@
+.App-geral {
+  background: linear-gradient(90deg, teal, #99f2c8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  
+  
+}
+
+/*.formnamecl {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 3px;
+  color: blue
+}*/
+
+form {
+  box-sizing: border-box;
+  width: 50%;
+  height:60%;
+  background-color: rgb(237, 252, 243);
+  display: block;
+  }
+
+.dadosPessoais {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.documentos {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.App-select {
+  border: 1px solid black;
+  margin: 3px 20px;
+  padding: 5px;
+}
+
+.App-span {
+  color:rgb(240, 82, 82)
+}
+
+.secoes {
+  margin: 3px 20px;
+  padding: 5px;
+  font-size: 20px;
+    
+}
+
+.headerJobs {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  border-bottom: 5px solid rgb(237, 252, 243);
+  margin-bottom: 60px;
+  
+}
+
+.headerJobs div p {
+  font-size: 80px;
+  font-style: bold;
+  font-family: 'Arial', sans-serif;
+ /* background: linear-gradient(90deg, #99f2c8, #defaed); */
+  background-color: rgb(237, 252, 243);
+  padding: 10px;
+  margin: 0 auto;
+  border: 3px solid black;
+  border-width: 3px;
+  color: black;
+  
+  
+  
+}
+
+.headerJobs a {
+  text-decoration: none;
+}
+.headerJobs ul {
+  display: flex;
+  list-style: none;
+}
+
+
+.headerJobs ul li {
+  padding: 10px;
+  font-size: 20px;
+  /* border-left: 2px solid rgb(237, 252, 243); */
+ }
+
+/* .headerJobs ul li:last-child {
+  
+  border-right: 2px solid rgb(237, 252, 243);
+} */
+
+.headerJobs ul li a:hover {
+  color: rgb(48, 87, 56);
+  text-decoration: underline;
+}
+
+.headerJobs ul li a {
+transition: 200ms;
+}
+
+.App button {
+  width: 15%;
+  padding: 5px 10px;
+  background-color: #99f2c8;
+  cursor: pointer;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  transition: 300ms ease-out;
+  margin: 30px 30px;
+  font-size: 30px;
+}
+
+.App-geral button:hover {
+  background-color: teal;
+  color: rgb(237, 252, 243);
+}
+
+footer {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .headerJobs {
+      width: fit-content;
+  }
+
+  .headerJobs ul li {
+    font-size: 15px;
+ }
+ .headerJobs div p {
+     font-size: 30px;
+ }
+ .App button {
+   font-size: 10px;
+ }
+
+ form {
+  width: 80%;
+  height:60%;
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+
+  .headerJobs ul li {
+     font-size: 13px;
+     
+  }
+  .headerJobs div p {
+      font-size: 20px;
+      
+  }
+
+  form {
+    width: 90%;
+    height:60%;
+  }
+}
