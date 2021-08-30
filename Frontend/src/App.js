@@ -43,7 +43,7 @@ const App = () => {
 
   const createCandidate = async (candidate) => {
     try {
-      const user = await axios.post('http://localhost:5000/register', form);
+      const user = await axios.post('https://backenddesafiogama.herokuapp.com/register', form);
       if (user.status === 200) {
         alert('Candidato cadastrado com sucesso!');
       }
