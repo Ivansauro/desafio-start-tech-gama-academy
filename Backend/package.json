@@ -8,10 +8,11 @@
   "description": "backend-em-node-da-jobsnet",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
   "keywords": [],
-  "author": "Pedro Hiro Sato",
+  "author": "Ivanei Araujo",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",

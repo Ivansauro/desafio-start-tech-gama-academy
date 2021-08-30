@@ -9,8 +9,8 @@
 
   "servers": [
     {
-      "url": "http://localhost:5000",
-      "description": "Ambiente de desenvolvimento"
+      "url": "https://backenddesafiogama.herokuapp.com",
+      "description": "Ambiente de produção"
     }
   ],
 
