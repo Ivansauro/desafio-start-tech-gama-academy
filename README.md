@@ -1,6 +1,14 @@
 ### Desafio Gama Academy do programa Start Tech
 
-Criação de um banco de currículos para a empresa fictícia Jobsnet em Node e React. O desenvolvimento seguiu os seguintes parâmetros:
+Criação de um banco de currículos para a empresa fictícia Jobsnet em Node e React. O banco de dados utilizado foi o MongoDB.
+
+Resultado:
+
+https://desafiogama-ivanei.herokuapp.com/
+
+
+
+O desenvolvimento seguiu os seguintes parâmetros:
 
 #### Fase 1 - Criação da Página
 
