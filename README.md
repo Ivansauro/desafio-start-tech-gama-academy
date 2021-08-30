@@ -2,9 +2,13 @@
 
 Criação de um banco de currículos para a empresa fictícia Jobsnet em Node e React. O banco de dados utilizado foi o MongoDB.
 
-Resultado:
+Landing page:
 
 https://desafiogama-ivanei.herokuapp.com/
+
+Swagger:
+
+https://backenddesafiogama.herokuapp.com/docs/
 
 
 
